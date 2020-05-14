@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rodrigo Valdés — Portfolio</title>
+	<!-- favicon -->
+	<link rel="shortcut icon" href="images/icons/favicon.svg">
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500|Source+Code+Pro:300,400,600,700"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<!-- animate.css -->
+	<!-- <link rel="stylesheet" href="css/animate.min.css"> -->
+	<!-- slider and carousel -->
+	<link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<!-- popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- icons set -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- custom main stylesheet -->
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+	<!--	LOGO / MENÚ	-->
+	<header class="header">
+		<div class="inner-header container">
+			<div class="header__logo">
+				<a href="index.html" class="logo__item"></a>
+			</div>
+
+			<button class="btn_nav"><i class="icon-menu"></i></button>
+
+			<nav class="navigation header__nav">
+				<ul class="nav__list">
+					<li class="nav__item current"><a href="#about" class="nav__link"><span
+								class="nav__item_underline"></span>Sobre Mí</a></li>
+					<!-- <li class="nav__item"><a href="#services" class="nav__link"><span
+								class="nav__item_underline"></span>Service</a></li> -->
+					<li class="nav__item"><a href="#services" class="nav__link"><span
+								class="nav__item_underline"></span>Experiencia</a></li>
+					<li class="nav__item"><a href="#works" class="nav__link"><span
+								class="nav__item_underline"></span>Portafolio</a></li>
+					<li class="nav__item"><a href="#clients" class="nav__link"><span
+								class="nav__item_underline"></span>Clientes</a></li>
+					<li class="nav__item"><a href="#contact" class="nav__link"><span
+								class="nav__item_underline"></span>Contacto</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!--	SLIDER		-->
+	<div class="slider section">
+		<!-- slider item -->
+		<!-- <div class="slider__item slider__item_1">
+			<div class="container">
+				<div class="slider__wrapper">
+					<span class="item__text">We have been working since 2010</span>
+					<h1 class="item__text item__text_big">We are a creative team of designers. We make websites,
+						interfaces and identity. We believe that beauty is hidden in small things.</h1>
+				</div>
+			</div>
+		</div> -->
+
+		<!-- slider item -->
+		<div class="slider__item">
+			<div class="slider__iframe__wrapper">
+				<!-- <iframe class="slider__item_video"
+					src="https://player.vimeo.com/video/98953952?autoplay=1&loop=1&color=000000&title=0&byline=0&portrait=0"
+					frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+				<iframe loop class="slider__item_video"
+					src="https://player.vimeo.com/video/331139955?autoplay=1&loop=1&color=000000&title=0&byline=0&portrait=0"
+					frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
+			<div class="slider__video_darcken"></div>
+			<!-- <div class="container">
+				<div class="slider__wrapper">
+					<span class="item__text">We are a creative team since 2010</span>
+					<h1 class="item__text item__text_big">Director de Arte | Diseñador UX/UI</h1>
+				</div>
+			</div> -->
+		</div>
+	</div>
+
+	<!--	Slider controls
+*****************************-->
+	<!-- prev -->
+	<!-- <div class="pointer-container pointer-container_left">
+		<div class="pointer pointer_prev">
+			<div class="pointer__arrow pointer_color pointer__arrow_top"></div>
+			<div class="pointer__line pointer_color"></div>
+			<div class="pointer__arrow pointer_color pointer__arrow_bottom"></div>
+		</div>
+	</div> -->
+
+	<!-- next -->
+	<!-- <div class="pointer-container pointer-container_right">
+		<div class="pointer pointer_next">
+			<div class="pointer__arrow pointer_color pointer__arrow_top"></div>
+			<div class="pointer__line pointer_color"></div>
+			<div class="pointer__arrow pointer_color pointer__arrow_bottom"></div>
+		</div>
+	</div> -->
+
+	<!--	FLECHA ANIMADA	-->
+	<div class="pointer pointer_bottom">
+		<div class="pointer__arrow pointer__arrow_top"></div>
+		<div class="pointer__line"></div>
+		<div class="pointer__arrow pointer__arrow_bottom"></div>
+	</div>
+
+	<!--	SOBRE MI	-->
+	<!-- <section id="about" class="about section">
+		<div class="container">
+			<div class="row">
+				<div class="about__text col-xs-12 col-md-6">
+					<p class="text__par">Bueno, déjame darte una breve introducción sobre mí. Me llamo Rodrigo Valdés✌,
+						tengo 29 años, y soy diseñador con mención en visualidad y medios, titulado en la
+						Universidad de Chile.
+						Aunque tengo experiencia en diseño UX/UI, me gusta verme a mí mismo como un
+						diseñador enfocado en dar un alto carácter estético a los elementos. </p>
+					<a href="https://drive.google.com/file/d/1YJ7OcrwoInKf-mYxs4sS5QvoO--aYfnW/view?usp=sharing"
+						rel="nofollow" class="text__button">Descargar CV</a>
+				</div>
+				<div class="about__right-column col-xs-12 col-md-6"></div>
+			</div>
+		</div>
+	</section> -->
+
+
+	<section id="about" class="about section">
+		<div class="container">
+
+<div class="row">
+			<div class="about__text col-xs-12 col-md-6">
+				<p class="text__par">Bueno, déjame darte una breve introducción sobre mí. Me llamo Rodrigo Valdés,
+					tengo 29 años, y soy diseñador con mención en visualidad y medios, titulado en la
+					Universidad de Chile.
+					Aunque tengo experiencia en diseño UX/UI, me gusta verme a mí mismo como un
+					diseñador enfocado en dar un alto carácter estético a los elementos. </p>
+				<a href="https://drive.google.com/file/d/1YJ7OcrwoInKf-mYxs4sS5QvoO--aYfnW/view?usp=sharing"
+					rel="nofollow" class="text__button">Descargar CV</a>
+			</div>
+
+				<div class="col-xs-12 col-md-6">
+
+				</div>
+
+
+
+
+
+			</div>
+
+
+
+
+		</div>
+
+
+
+
+	</section>
+
+	<!--	VIDEO	-->
+	<section class="video">
+		<iframe class="video__item"
+			src="https://player.vimeo.com/video/195869584?autoplay=1&loop=1&color=000000&title=0&byline=0&portrait=0"
+			frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+		<!-- foreground video poster -->
+		<div class="video__item video__item_poster">
+			<button class="poster__play-button">
+				<span class="play-outline"></span>
+			</button>
+		</div>
+	</section>
+
+	<!--	GALERIA		-->
+	<section id="works" class="works section">
+		<div class="container">
+			<div class="row">
+				<!-- header and buttons of the gallery -->
+				<div class="works__header">
+					<h2 class="col-xs-12 col-sm-12">Portafolio</h2>
+					<nav class="works__header__nav col-xs-12 col-sm-12">
+						<button data-filter="*" class="works__nav__item works__nav__item_active"><span
+								class="works__button_underline"></span>All</button>
+						<button data-filter=".web" class="works__nav__item"><span
+								class="works__button_underline"></span>Web</button>
+						<button data-filter=".editorial" class="works__nav__item"><span
+								class="works__button_underline"></span>Editorial</button>
+						<button data-filter=".brand" class="works__nav__item"><span
+								class="works__button_underline"></span>Brand</button>
+					</nav>
+				</div>
+			</div>
+
+			<div class="gallery">
+				<!-- gallery container -->
+				<div class="gallery__items">
+
+					<!-- gallery item -->
+					<div class="gallery__item gallery__item_1 col-xs-12 col-sm-6 web">
+						<div class="gallery__item__hover">
+							<span class="item__hover__line"></span><span class="item__hover__tag">Web Design</span>
+
+							<h3 class="item__hover__header"><a href="javascript:void">Kayano-26</a></h3>
+							<h4 class="item__hover__header-small">Asics Chile</h4>
+
+							<a href="https://www.behance.net/gallery/88193509/Landing-Page-GEL-KAYANO-26" rel="nofollow"
+								class="item__hover__zoom" title="Asics Chile: Gel-Kayano 26">
+								<!-- <img src="images/magnificpopup/redstrip.jpg" alt> -->
+								Ver&nbsp;más
+							</a>
+						</div>
+					</div>
+
+					<!-- gallery item -->
+					<div class="gallery__item gallery__item_2 col-xs-12 col-sm-6 editorial">
+						<div class="gallery__item__hover">
+							<span class="item__hover__line"></span><span class="item__hover__tag">Editorial
+								Design</span>
+
+							<h3 class="item__hover__header"><a href="javascript:void">Revista SML</a></h3>
+							<h4 class="item__hover__header-small">Publicación Impresa</h4>
+
+							<a href="https://issuu.com/ornellatello/docs/low.sml_12" rel="nofollow"
+								class="item__hover__zoom" title="Revista SML">
+								<!-- <img src="images/magnificpopup/redstrip.jpg" alt> -->
+								Ver&nbsp;más
+							</a>
+
+						</div>
+					</div>
+
+					<!-- gallery item -->
+
+					<div class="gallery__item gallery__item_3 col-xs-12 col-sm-6 web">
+						<div class="gallery__item__hover">
+							<span class="item__hover__line"></span><span class="item__hover__tag">Web Design</span>
+
+							<h3 class="item__hover__header"><a href="javascript:void">Tus Ideas Construyen</a></h3>
+							<h4 class="item__hover__header-small">Cementos Melón</h4>
+
+							<a href="https://www.behance.net/gallery/88287383/Cementos-Melon-Tus-Ideas-Construyen"
+								rel="nofollow" class="item__hover__zoom" title="Cementos Melón: Tus Ideas Construyen">
+								<!-- <img src="images/magnificpopup/cookie.jpg" alt> -->
+								Ver&nbsp;más
+							</a>
+						</div>
+					</div>
+
+
+					<!-- gallery item -->
+					<div class="gallery__item gallery__item_4 col-xs-12 col-sm-6 web">
+						<div class="gallery__item__hover">
+							<span class="item__hover__line"></span><span class="item__hover__tag">Web design</span>
+
+							<h3 class="item__hover__header"><a href="javascript:void">U'ROCK Magazine</a></h3>
+							<h4 class="item__hover__header-small">Sitio Web</h4>
+
+							<a href="https://www.behance.net/gallery/64139333/UROCK-Magazine-Web-Site" rel="nofollow"
+								class="item__hover__zoom" title="U'Rock Magazine: Sito Web">
+								<!-- <img src="images/magnificpopup/softs.jpg" alt> -->
+								Ver&nbsp;más
+							</a>
+
+						</div>
+					</div>
+
+					<!-- gallery item -->
+					<div class="gallery__item gallery__item_5 col-xs-12 col-sm-6 editorial">
+						<div class="gallery__item__hover">
+							<span class="item__hover__line"></span><span class="item__hover__tag">Editorial
+								Design</span>
+
+							<h3 class="item__hover__header"><a href="javascript:void">U'Rock Magazine</a></h3>
+							<h4 class="item__hover__header-small">Publicación Impresa</h4>
+
+							<a href="https://issuu.com/urock.magazine/docs/urock_v_web_completa" rel="nofollow"
+								class="item__hover__zoom" title="U'Rock Magazine: Publicación Impresa">
+								<!-- <img src="images/magnificpopup/essentials.jpg" alt> -->
+								Ver&nbsp;más
+							</a>
+
+						</div>
+					</div>
+
+					<!-- gallery item -->
+					<div class="gallery__item gallery__item_6 col-xs-12 col-sm-6 brand">
+						<div class="gallery__item__hover">
+							<span class="item__hover__line"></span><span class="item__hover__tag">Brand</span>
+
+							<h3 class="item__hover__header"><a href="javascript:void">Elizabeth Moris</a></h3>
+							<h4 class="item__hover__header-small">Marca</h4>
+
+							<a href="images/magnificpopup/helmet.jpg" rel="nofollow" class="item__hover__zoom"
+								title="Elizabeth Moris">
+								<img src="images/magnificpopup/helmet.jpg" alt>
+								Ver&nbsp;más
+							</a>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- CLIENTES -->
+	<section class="clients-and-contacts section">
+		<section id="clients" class="clients">
+			<div class="container">
+				<div class="clients__header row">
+					<h2 class="col-xs-12 col-md-9">Clientes Felices</h2>
+
+					<!-- clients controls -->
+					<div class="clients__controls col-xs-12 col-md-3">
+						<div class="clients__arrow clients__arrow_back">
+
+							<div class="clients__arrow__line-short clients__arrow__line-up"></div>
+							<div class="clients__arrow__line"></div>
+							<div class="clients__arrow__line-short clients__arrow__line-down"></div>
+
+						</div>
+
+						<!-- clients counter -->
+						<div class="clients__counter">&nbsp;<span
+								class="clients__counter__item clients__counter__item1">1&nbsp;</span> / <span
+								class="clients__counter__item clients__counter__item2">&nbsp;4</span>&nbsp;</div>
+
+						<div class="clients__arrow clients__arrow_next">
+
+							<div class="clients__arrow__line-short clients__arrow__line-up"></div>
+							<div class="clients__arrow__line"></div>
+							<div class="clients__arrow__line-short clients__arrow__line-down"></div>
+
+						</div>
+					</div>
+				</div>
+
+				<!-- clients carousel container -->
+				<div id="clients" class="clients__comment section">
+					<div class="owl-carousel owl-theme">
+						<div class="item">
+							<div class="clients__comment__item">
+								<div class="comment__customer col-xs-12 col-md-4">
+									<h3>Cindy Jeraldo</h3>
+									<h4 class="comment__customer__prefession">Marketing y Ventas <br> Revista SML</h4>
+								</div>
+
+								<blockquote class="comment__text col-xs-12 col-md-8">
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum non obcaecati
+									praesentium tenetur optio repellendus culpa adipisci.
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum non obcaecati
+									praesentium tenetur.
+								</blockquote>
+							</div>
+						</div>
+						<div class="item">
+							<div class="clients__comment__item">
+								<div class="comment__customer col-xs-12 col-md-4">
+									<h3>María José Martínez</h3>
+									<h4 class="comment__customer__prefession">Owner, Agencia Baobab Diseño</h4>
+								</div>
+
+								<blockquote class="comment__text col-xs-12 col-md-8">
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum non obcaecati
+									praesentium tenetur optio repellendus culpa adipisci.
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum non obcaecati
+									praesentium tenetur.
+								</blockquote>
+							</div>
+						</div>
+						<div class="item">
+							<div class="clients__comment__item">
+								<div class="comment__customer col-xs-12 col-md-4">
+									<h3>Miguel Lamartine</h3>
+									<h4 class="comment__customer__prefession">Head of Arts, Agencia Pejerrey Social</h4>
+								</div>
+
+								<blockquote class="comment__text col-xs-12 col-md-8">
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum non obcaecati
+									praesentium tenetur optio repellendus culpa adipisci.
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum non obcaecati
+									praesentium tenetur.
+								</blockquote>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--	Contact us
+	*********************************-->
+		<!-- <div class="map col-xs-12 col-sm-6"></div> -->
+
+		<!-- <div class="col-xs-12 col-sm-6">
+
+		</div> -->
+
+		<footer class="contact container">
+			<div class="row">
+
+				<div class="contact__inf col-xs-12">
+					<!-- <h2 id="contact" class="section">Hola 👋</h2> -->
+
+					<p id="contact" class="contact__text section">
+						¿Necesitas ayuda con tu proyecto? Cuéntame más sobre lo que quieres lograr, te ayudare a pensar
+						en posibles soluciones:
+						<br>
+					<a class="contact__email" href="mailto:info@evatheme.com">rvaldesletelier@gmail.com</a>
+					</p>
+
+					<!-- <address class="contact__address">
+						USA, California, Montero Street 33/2<br>
+						<a class="contact__tel" href="tel:+125998955988">+1 259 989 559 88</a>
+					</address> -->
+
+					<!-- social networks -->
+					<div class="social">
+						<div class="social__link-and-icon">
+							<span class=""></span><a class="social__link"
+								href="https://www.linkedin.com/in/rodrigovaldesletelier/">Linkedin<span
+									class="social__link_underline"></span></a>
+
+						</div>
+						<div class="social__link-and-icon">
+							<span class=""></span><a class="social__link"
+								href="https://www.behance.net/rodriqovaldes">Behance<span
+									class="social__link_underline"></span></a>
+
+						</div>
+					</div>
+
+					<p class="copyright">© 2020 Diseño y Desarrollo por Rodrigo Valdés. All Rights Reserved.</p>
+				</div>
+
+
+
+			</div>
+		</footer>
+
+		<!--	clients logos	-->
+		<section class="clients-logos container d-none d-sm-block">
+			<div class="clients-logos__wrapper">
+				<img class="clients-logos__image" src="images/icons/newyork.png" alt="New York">
+				<img class="clients-logos__image" src="images/icons/brooks.png" alt="Brooks">
+				<img class="clients-logos__image" src="images/icons/smokers.png" alt="Smokers">
+
+				<img class="clients-logos__image" src="images/icons/miller.png" alt="Miller">
+				<img class="clients-logos__image" src="images/icons/veela.png" alt="Veela">
+				<img class="clients-logos__image" src="images/icons/jumber.png" alt="Lumber">
+			</div>
+		</section>
+	</section>
+
+	<!-- jQuery -->
+	<script src="js/libs/jquery.min.js"></script>
+	<!-- carousel -->
+	<script src="js/libs/owl.carousel.min.js"></script>
+	<!-- slider -->
+	<script src="js/libs/slick.min.js"></script>
+	<!-- manipulation with text -->
+	<script src="js/libs/jquery.lettering-0.6.1.min.js"></script>
+	<script src="js/libs/jquery.textillate.js"></script>
+	<!-- gallery filter -->
+	<script src="js/libs/isotope.pkgd.min.js"></script>
+	<!-- popup -->
+	<!-- <script src="js/libs/jquery.magnific-popup.min.js"></script> -->
+	<!-- smooth scroll -->
+	<script src="js/libs/jquery.smooth-scroll.min.js"></script>
+	<!-- menu -->
+	<script src="js/menu.js"></script>
+	<!-- castom js script -->
+	<script src="js/main.js"></script>
+	<!-- vimeo player api -->
+	<script src="https://player.vimeo.com/api/player.js"></script>
+	<!-- vimeo player options -->
+	<script>
+		var iframe = document.querySelector('.slider__item_video');
+		var player = new Vimeo.Player(iframe);
+
+		//When the player is ready, set the volume to 0
+		player.ready().then(function () {
+			player.setVolume(0);
+		});
+	</script>
+
+</body>
+
+</html>
