@@ -427,7 +427,8 @@ ul, ol {
 .video__item_poster{
 	background-image: url(../images/photos/video_cover.jpg);
 	background-repeat: no-repeat;
-	background-position: 43% center;
+	/* background-position: 43% center; */
+	background-position: 0% top;
 	-webkit-background-size: cover;
 	        background-size: cover;
 }
@@ -805,27 +806,27 @@ ul, ol {
 }
 
 .gallery__item_1{
-	background-image: url(../images/photos/unsplash.jpg);
+	background-image: url(../images/photos/unsplash.png);
 }
 
 .gallery__item_2{
-	background-image: url(../images/photos/redstrip.jpg);
+	background-image: url(../images/photos/redstrip.png);
 }
 
 .gallery__item_3{
-	background-image: url(../images/photos/cookie.jpg);
+	background-image: url(../images/photos/cookie.png);
 }
 
 .gallery__item_4{
-	background-image: url(../images/photos/softs.jpg);
+	background-image: url(../images/photos/softs.png);
 }
 
 .gallery__item_5{
-	background-image: url(../images/photos/essentials.jpg);
+	background-image: url(../images/photos/essentials.png);
 }
 
 .gallery__item_6{
-	background-image: url(../images/photos/helm.jpg);
+	background-image: url(../images/photos/helm.png);
 }
 
 .gallery__button{
@@ -1249,7 +1250,8 @@ ul, ol {
 
 .clients-logos{
 	padding: 15px 0;
-	background-color: #2bf4a1;
+	background-color: #F8F8F8;
+	/* background-color: #2bf4a1 */
 	position: absolute;
 	top: 50%;
 	left: 0; right: 0;
