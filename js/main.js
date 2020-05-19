@@ -70,7 +70,7 @@ $('a').smoothScroll({
 //	***********************************
 	$(".poster__play-button").on('click', function(){
 		$(".video__item_poster").addClass("poster_hide");
-		$("iframe.video__item").attr("src", "https://player.vimeo.com/video/212731897?	color=ffffff&title=0&byline=0&autoplay=1");
+		$("iframe.video__item").attr("src", "https://player.vimeo.com/video/243053305?	color=ffffff&title=0&byline=0&autoplay=1");
 	});
 	
 //	services owl-carousel
