@@ -782,7 +782,7 @@ ul, ol {
 
 .item__hover__header-small{
 	margin-top: 10px;
-	font-family: 'Source Code Pro', monospace;
+	/* font-family: 'Source Code Pro', monospace; */
 	color: #fff;
 	font-weight: 400;
 	position: relative;
@@ -907,7 +907,7 @@ ul, ol {
 
 .mfp-counter{
 	margin-left: -65px;
-	font-family: 'Source Code Pro', monospace;
+	/* font-family: 'Source Code Pro', monospace; */
 	color: #fff;
 	position: absolute;
 	left: 50%;
@@ -1133,7 +1133,7 @@ ul, ol {
 
 .comment__customer__prefession{
 	margin-top: -15px;
-	font-family: 'Source Code Pro', monospace;
+	/* font-family: 'Source Code Pro', monospace; */
 	font-weight: 400;
 	color: #fcbec6;
 }
